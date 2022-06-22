@@ -15,3 +15,8 @@ response = request.execute()
 
 print(response)
 
+<<<<<<< HEAD
+=======
+#ssdfusudfudfh
+#test bryson push
+>>>>>>> 6dc3c4e438917b7495a63d9ff1aea03ab6fab1a3
