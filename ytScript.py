@@ -41,14 +41,25 @@ for string in keyword_list:
         json.dump(response, f, indent=4)
 
 # Reads videoIds from response .txt document and writes to a new file
-with open('query_videoIds.txt','w') as n:
 
-with open('query_responses.txt') as f:
+f = open("query_responses.txt", "r")
+content = f.read()
+splitcontent = content.splitlines()
+
+d = []
+for v in splitcontent:
+    l = v.split(' | ')
+    d.append(dict(s.split(':',1) for s in l))
+
+
+with open("query_videoIds.txt", 'w') as file:
+    file.write((json.dumps(d, indent=4, sort_keys= False)))
+
+with open('query_responses.json') as f:
     content = f.read()
 
     d = json.load(f)
     videoIds = []
     for elem in d['items']:
         videoIds.append(elem["id"]["videoId"])
-
-json.dump(videoIds, n, indent=4)
+    f.write(','.join(videoIds))
