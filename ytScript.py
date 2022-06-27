@@ -22,8 +22,6 @@ keyword_list.append("Computer Science Lists")
 # keyword_list.append("Computer Science Data Structures")
 # keyword_list.append("Computer Science Algorithms")
 
-#File path with type "write"
-# f = open("query_responses.json", 'w')
 
 #Iterate through the keyword list to search youtube api and write out to query_responses.txt
 for string in keyword_list:
