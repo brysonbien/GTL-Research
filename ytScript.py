@@ -3,7 +3,7 @@ import json
 from googleapiclient.discovery import build
 
 #Api Key generated 
-api_key = 'AIzaSyBYoNWt_KjSIYSQYo55j2nXf_3_oD9N29k'
+api_key = 'AIzaSyDIuQ0gDsXrKNvGIdKMWUezUjkD9Kgrx8s'
 
 #Building Youtube object
 youtube = build('youtube', 'v3', developerKey=api_key)
@@ -11,19 +11,19 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 #List of keywords
 keyword_list = []
 keyword_list.append("Computer Science Lists")
-keyword_list.append("Computer Science Stacks")
-keyword_list.append("Computer Science Queues")
-keyword_list.append("Computer Science Linked Lists")
-keyword_list.append("Computer Science Trees, AVL & Binary Trees ")
-keyword_list.append("Computer Science Graphs")
-keyword_list.append("Computer Science Trees")
-keyword_list.append("Computer Science Hashing and hash tables")
-keyword_list.append("Computer Science Dynamic Programming")
-keyword_list.append("Computer Science Data Structures")
-keyword_list.append("Computer Science Algorithms")
+# keyword_list.append("Computer Science Stacks")
+# keyword_list.append("Computer Science Queues")
+# keyword_list.append("Computer Science Linked Lists")
+# keyword_list.append("Computer Science Trees, AVL & Binary Trees ")
+# keyword_list.append("Computer Science Graphs")
+# keyword_list.append("Computer Science Trees")
+# keyword_list.append("Computer Science Hashing and hash tables")
+# keyword_list.append("Computer Science Dynamic Programming")
+# keyword_list.append("Computer Science Data Structures")
+# keyword_list.append("Computer Science Algorithms")
 
 #File path with type "write"
-f = open("query_responses.txt", 'w')
+# f = open("query_responses.json", 'w')
 
 #Iterate through the keyword list to search youtube api and write out to query_responses.txt
 for string in keyword_list:
@@ -31,13 +31,14 @@ for string in keyword_list:
     part="snippet",
     type='video',
     q = string,
-    maxResults = 10
+    maxResults = 2
     )
-    header = "\n#################################################\n" + "\n#################################################\n"+ string + "\n#################################################\n"+ "\n#################################################\n"
 
-    with open("query_responses.txt", 'a') as f:
-        response = request.execute()
-        #See yotube api request in terminal
-            #print(response)
-        f.write(header)
-        json.dump(response, f, indent=4)
+    response = request.execute()
+
+# Reads videoIds from response .json document and writes to a new file
+with open('query_responses.csv', 'w') as f:
+    videoIds = []
+    for elem in response['items']:
+        videoIds.append(elem["id"]["videoId"])
+    f.write(','.join(videoIds))
