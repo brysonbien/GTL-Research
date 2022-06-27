@@ -1,14 +1,6 @@
-
-#################################################
-
-#################################################
-Computer Science Lists
-#################################################
-
-#################################################
 {
     "kind": "youtube#searchListResponse",
-    "etag": "sRx_x6LHVf1WK1TsVA0s0tVisXQ",
+    "etag": "dvwPMxVw6UMz8xuDVdHRiB4CMw8",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -52,6 +44,40 @@ Computer Science Lists
         },
         {
             "kind": "youtube#searchResult",
+            "etag": "wcGGbI_r30NXKuOjA3i0vSLKIiw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "a939stt7qFE"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-14T20:40:17Z",
+                "channelId": "UCNkvXjQnuVJ2y5oZX_quTJw",
+                "title": "Computer Science Major TIER LIST",
+                "description": "Twitch: https://www.twitch.tv/marselluh Merch: https://nullref.co/ Instagram: https://www.instagram.com/chicken_marsella/ Are you ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/a939stt7qFE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a939stt7qFE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/a939stt7qFE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "marselluh",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-14T20:40:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
             "etag": "2-FwAyRDWgpfNgyBFhMgZ_KAHJg",
             "id": {
                 "kind": "youtube#video",
@@ -82,74 +108,6 @@ Computer Science Lists
                 "channelTitle": "TokyoEdtech",
                 "liveBroadcastContent": "none",
                 "publishTime": "2020-12-23T02:01:01Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "uv_TEUhT9xWFS2JolcYeghyXgiM",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "n1exiRH00x0"
-            },
-            "snippet": {
-                "publishedAt": "2021-08-03T01:48:50Z",
-                "channelId": "UCJyEBMU1xVP2be1-AoGS1BA",
-                "title": "CS Principles: Introduction to Lists - Part 1 Intro",
-                "description": "Start learning at http://code.org/ Stay in touch with us! \u2022 on Twitter https://twitter.com/codeorg \u2022 on Facebook ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/n1exiRH00x0/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/n1exiRH00x0/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/n1exiRH00x0/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Code.org",
-                "liveBroadcastContent": "none",
-                "publishTime": "2021-08-03T01:48:50Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "Y-lbf7XuVwhY8FOpjIuaYVtXWYA",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "SJjsatI0GUg"
-            },
-            "snippet": {
-                "publishedAt": "2020-12-20T17:50:19Z",
-                "channelId": "UC9abV72w8iFN5n-FJEbv09Q",
-                "title": "One Shot of Python Lists | Computer Science | Class 11 | Lovejeet Arora",
-                "description": "Do Subscribe to be a part of the community and never miss out on any new lectures: https://bit.ly/UnacademyCBSEScience11-12 ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/SJjsatI0GUg/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/SJjsatI0GUg/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/SJjsatI0GUg/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Chemistry Champions",
-                "liveBroadcastContent": "none",
-                "publishTime": "2020-12-20T17:50:19Z"
             }
         },
         {
@@ -188,70 +146,36 @@ Computer Science Lists
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "wcGGbI_r30NXKuOjA3i0vSLKIiw",
+            "etag": "Y-lbf7XuVwhY8FOpjIuaYVtXWYA",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "a939stt7qFE"
+                "videoId": "SJjsatI0GUg"
             },
             "snippet": {
-                "publishedAt": "2020-01-14T20:40:17Z",
-                "channelId": "UCNkvXjQnuVJ2y5oZX_quTJw",
-                "title": "Computer Science Major TIER LIST",
-                "description": "Twitch: https://www.twitch.tv/marselluh Merch: https://nullref.co/ Instagram: https://www.instagram.com/chicken_marsella/ Are you ...",
+                "publishedAt": "2020-12-20T17:50:19Z",
+                "channelId": "UC9abV72w8iFN5n-FJEbv09Q",
+                "title": "One Shot of Python Lists | Computer Science | Class 11 | Lovejeet Arora",
+                "description": "Do Subscribe to be a part of the community and never miss out on any new lectures: https://bit.ly/UnacademyCBSEScience11-12 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/a939stt7qFE/default.jpg",
+                        "url": "https://i.ytimg.com/vi/SJjsatI0GUg/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/a939stt7qFE/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/SJjsatI0GUg/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/a939stt7qFE/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/SJjsatI0GUg/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "marselluh",
+                "channelTitle": "Chemistry Champions",
                 "liveBroadcastContent": "none",
-                "publishTime": "2020-01-14T20:40:17Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "icYOMD2_A-K9cBMk-cvHf-5g7Z4",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "Zj_UC7c1nh4"
-            },
-            "snippet": {
-                "publishedAt": "2014-11-06T07:17:06Z",
-                "channelId": "UCoiZ7Eo0JpwVXMwBieCwMSg",
-                "title": "Arrays and Lists: data structures for the Computer Science AP",
-                "description": "I explain arrays and ArrayLists (as an example of all kinds of lists), the two main data structures in java for the Computer Science ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/Zj_UC7c1nh4/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/Zj_UC7c1nh4/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/Zj_UC7c1nh4/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Gina",
-                "liveBroadcastContent": "none",
-                "publishTime": "2014-11-06T07:17:06Z"
+                "publishTime": "2020-12-20T17:50:19Z"
             }
         },
         {
@@ -290,40 +214,6 @@ Computer Science Lists
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "RitRI2NrMxWDhoMdHA5MdsrYfc4",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "SzJ46YA_RaA"
-            },
-            "snippet": {
-                "publishedAt": "2017-09-06T15:36:30Z",
-                "channelId": "UCxqAWLTk1CmBvZFPzeZMd9A",
-                "title": "Map of Computer Science",
-                "description": "The field of computer science summarised. Learn more at this video's sponsor https://brilliant.org/dos Computer science is the ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/SzJ46YA_RaA/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/SzJ46YA_RaA/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/SzJ46YA_RaA/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Domain of Science",
-                "liveBroadcastContent": "none",
-                "publishTime": "2017-09-06T15:36:30Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "qLoqDlRFkQDVbjQKifrHyhziO3Y",
             "id": {
                 "kind": "youtube#video",
@@ -355,19 +245,113 @@ Computer Science Lists
                 "liveBroadcastContent": "none",
                 "publishTime": "2020-02-10T12:06:53Z"
             }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uv_TEUhT9xWFS2JolcYeghyXgiM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "n1exiRH00x0"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-03T01:48:50Z",
+                "channelId": "UCJyEBMU1xVP2be1-AoGS1BA",
+                "title": "CS Principles: Introduction to Lists - Part 1 Intro",
+                "description": "Start learning at http://code.org/ Stay in touch with us! \u2022 on Twitter https://twitter.com/codeorg \u2022 on Facebook ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/n1exiRH00x0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/n1exiRH00x0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/n1exiRH00x0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Code.org",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-03T01:48:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ArRu--RhNLSwbe3BFBnSIlzk6pY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zOjov-2OZ0E"
+            },
+            "snippet": {
+                "publishedAt": "2020-04-21T13:45:02Z",
+                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+                "title": "Introduction to Programming and Computer Science - Full Course",
+                "description": "In this course, you will learn basics of computer programming and computer science. The concepts you learn apply to any and all ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "freeCodeCamp.org",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-04-21T13:45:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5ZSh4b0QzyPAMsQr4eTK7AbXqt4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7zV031tuL3c"
+            },
+            "snippet": {
+                "publishedAt": "2012-06-11T22:19:58Z",
+                "channelId": "UCt73F73YFgh1jsggSdjbPVA",
+                "title": "AP Computer Science: Lists",
+                "description": "Watch more at http://educator.com/computer-science/introduction-to-java/quayle/ Other Computer Science subjects include Java, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7zV031tuL3c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7zV031tuL3c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7zV031tuL3c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Educator.com",
+                "liveBroadcastContent": "none",
+                "publishTime": "2012-06-11T22:19:58Z"
+            }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Stacks
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "oA7ZawsCJg_pZiKz2_5y46TMkE4",
+    "etag": "fAJAaNBZabf9nQIJjhpHtBrjcg0",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -445,40 +429,6 @@ Computer Science Stacks
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "szY8qBVoBU3pO6M7tBwQ9sOTa0s",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "I37kGX-nZEI"
-            },
-            "snippet": {
-                "publishedAt": "2021-06-07T16:00:08Z",
-                "channelId": "UCQYMhOMi_Cdj1CEAU-fv80A",
-                "title": "Introduction to Stacks",
-                "description": "Data Structures: Introduction to Stacks Topics discussed: 1) The definition of Stacks. 2) Some real-life examples of Stacks. 3) Stack ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/I37kGX-nZEI/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/I37kGX-nZEI/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/I37kGX-nZEI/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Neso Academy",
-                "liveBroadcastContent": "none",
-                "publishTime": "2021-06-07T16:00:08Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "-jvmnLMCYUb6vCS-cry0lR7vR-M",
             "id": {
                 "kind": "youtube#video",
@@ -513,36 +463,36 @@ Computer Science Stacks
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "-FNnvAVX8UV39uY_asvACHT7wRE",
+            "etag": "szY8qBVoBU3pO6M7tBwQ9sOTa0s",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "FNZ5o9S9prU"
+                "videoId": "I37kGX-nZEI"
             },
             "snippet": {
-                "publishedAt": "2013-01-15T00:17:38Z",
-                "channelId": "UCcDGsN3JxMavDkM9INRLGFA",
-                "title": "What is a Stack Data Structure - An Introduction to Stacks",
-                "description": "This tutorial covers the basic concepts and functions of a stack data structure. Want to learn C++? I highly recommend this book ...",
+                "publishedAt": "2021-06-07T16:00:08Z",
+                "channelId": "UCQYMhOMi_Cdj1CEAU-fv80A",
+                "title": "Introduction to Stacks",
+                "description": "Data Structures: Introduction to Stacks Topics discussed: 1) The definition of Stacks. 2) Some real-life examples of Stacks. 3) Stack ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/FNZ5o9S9prU/default.jpg",
+                        "url": "https://i.ytimg.com/vi/I37kGX-nZEI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/FNZ5o9S9prU/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/I37kGX-nZEI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/FNZ5o9S9prU/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/I37kGX-nZEI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Paul Programming",
+                "channelTitle": "Neso Academy",
                 "liveBroadcastContent": "none",
-                "publishTime": "2013-01-15T00:17:38Z"
+                "publishTime": "2021-06-07T16:00:08Z"
             }
         },
         {
@@ -581,7 +531,41 @@ Computer Science Stacks
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "rl7EzqtXtCgDPeQhrJMX1qvX86c",
+            "etag": "-FNnvAVX8UV39uY_asvACHT7wRE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FNZ5o9S9prU"
+            },
+            "snippet": {
+                "publishedAt": "2013-01-15T00:17:38Z",
+                "channelId": "UCcDGsN3JxMavDkM9INRLGFA",
+                "title": "What is a Stack Data Structure - An Introduction to Stacks",
+                "description": "This tutorial covers the basic concepts and functions of a stack data structure. Want to learn C++? I highly recommend this book ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FNZ5o9S9prU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FNZ5o9S9prU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FNZ5o9S9prU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Programming",
+                "liveBroadcastContent": "none",
+                "publishTime": "2013-01-15T00:17:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "K9T9fJZNEZCJe_aIt0EQU1ACUxg",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "_7_jYMk_R9k"
@@ -611,40 +595,6 @@ Computer Science Stacks
                 "channelTitle": "Craig'n'Dave",
                 "liveBroadcastContent": "none",
                 "publishTime": "2021-01-01T15:51:20Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "2aVW_IdmwZ0iX8pK1DP458Q2xfI",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "eaG3KIn_Gnw"
-            },
-            "snippet": {
-                "publishedAt": "2022-02-05T08:50:33Z",
-                "channelId": "UCUpHeFrAvoqcdGgl_W83x6w",
-                "title": "Stack - Data Structures | Python for Class 12 | Term 2 | Computer Science | Lovejeet Arora",
-                "description": "Economics On Your Tips brings you yet another amazing session for class 12th. In this Lecture, Lovejeet Arora will be discussing ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/eaG3KIn_Gnw/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/eaG3KIn_Gnw/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/eaG3KIn_Gnw/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Economics on Your Tips",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-02-05T08:50:33Z"
             }
         },
         {
@@ -683,54 +633,80 @@ Computer Science Stacks
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "mYddCIAdBTqnBESourtGrGl_2Ww",
+            "etag": "D7wA6TLWhL6or2x5XdVD5D9iEpk",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "woNTCp2Dzzc"
+                "videoId": "0Rk9BztXiLs"
             },
             "snippet": {
-                "publishedAt": "2021-01-28T04:30:14Z",
-                "channelId": "UCF7BExjT2zH_mmyqOB139Dg",
-                "title": "STACK IMPLEMENTATION | Push, Pop, Display | Class 12 Python | Computer Science for Board",
-                "description": "Notes and Important Links of this lecture Discord Server: https://discord.com/invite/amandhattarwal ...",
+                "publishedAt": "2020-12-22T15:30:12Z",
+                "channelId": "UCO0KFz5_gtZt-AfyIV2sAkw",
+                "title": "Python Class 12 | Stack in Python Data Structure | Chapter 10 | Part 1 | In Hindi",
+                "description": "Python Class 12 | Stack in Python Data Structure | Chapter 10 | Part 1 | In Hindi | Tutorial#51 Donate/Support CODEITUP Paytm: ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/woNTCp2Dzzc/default.jpg",
+                        "url": "https://i.ytimg.com/vi/0Rk9BztXiLs/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/woNTCp2Dzzc/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/0Rk9BztXiLs/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/woNTCp2Dzzc/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/0Rk9BztXiLs/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Apni Kaksha",
+                "channelTitle": "codeitup",
                 "liveBroadcastContent": "none",
-                "publishTime": "2021-01-28T04:30:14Z"
+                "publishTime": "2020-12-22T15:30:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "--nyEgEgJXC1Sr4ntxCw437xWW4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "iw3w-FwIiAs"
+            },
+            "snippet": {
+                "publishedAt": "2017-03-06T15:22:16Z",
+                "channelId": "UCcabW7890RKJzL968QWEykA",
+                "title": "Technology Stacks - Computer Science for Business Leaders - July 2016",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/iw3w-FwIiAs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/iw3w-FwIiAs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/iw3w-FwIiAs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CS50",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-03-06T15:22:16Z"
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Queues
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "DSCL_mXjqwl0UsL2J0L3xBTjYgw",
+    "etag": "wygQVLocFl2bDVYAjkbFl8EXJeU",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
-        "totalResults": 723935,
+        "totalResults": 754735,
         "resultsPerPage": 10
     },
     "items": [
@@ -804,36 +780,36 @@ Computer Science Queues
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "zW14pSsn2Edk5Lbae8mLEJSEfJ8",
+            "etag": "G04R598JatsrZ_wzuOenXqkgXF0",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "WnjVVJ0kIgQ"
+                "videoId": "cXxlSp77QZ0"
             },
             "snippet": {
-                "publishedAt": "2018-02-03T17:55:27Z",
-                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
-                "title": "AQA A\u2019Level Stacks &amp; Queues - Part 1",
-                "description": "AQA Specification Reference A Level 4.2.2.1 & 4.2.3.1 Why do we disable comments? We want to ensure these videos are always ...",
+                "publishedAt": "2015-09-27T20:29:09Z",
+                "channelId": "UCi1mEKq_tlYkUIFgVF6lhhA",
+                "title": "Queues - A Level Computer Science",
+                "description": "Video covering the use of an array (or list) to create a queue, the addition and deletion of data from a queue.",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/WnjVVJ0kIgQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/cXxlSp77QZ0/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/WnjVVJ0kIgQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/cXxlSp77QZ0/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/WnjVVJ0kIgQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/cXxlSp77QZ0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Craig'n'Dave",
+                "channelTitle": "Yatish Parmar",
                 "liveBroadcastContent": "none",
-                "publishTime": "2018-02-03T17:55:27Z"
+                "publishTime": "2015-09-27T20:29:09Z"
             }
         },
         {
@@ -872,36 +848,70 @@ Computer Science Queues
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "G04R598JatsrZ_wzuOenXqkgXF0",
+            "etag": "zW14pSsn2Edk5Lbae8mLEJSEfJ8",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "cXxlSp77QZ0"
+                "videoId": "WnjVVJ0kIgQ"
             },
             "snippet": {
-                "publishedAt": "2015-09-27T20:29:09Z",
-                "channelId": "UCi1mEKq_tlYkUIFgVF6lhhA",
-                "title": "Queues - A Level Computer Science",
-                "description": "Video covering the use of an array (or list) to create a queue, the addition and deletion of data from a queue.",
+                "publishedAt": "2018-02-03T17:55:27Z",
+                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
+                "title": "AQA A\u2019Level Stacks &amp; Queues - Part 1",
+                "description": "AQA Specification Reference A Level 4.2.2.1 & 4.2.3.1 Why do we disable comments? We want to ensure these videos are always ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/cXxlSp77QZ0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/WnjVVJ0kIgQ/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/cXxlSp77QZ0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WnjVVJ0kIgQ/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/cXxlSp77QZ0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/WnjVVJ0kIgQ/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Yatish Parmar",
+                "channelTitle": "Craig'n'Dave",
                 "liveBroadcastContent": "none",
-                "publishTime": "2015-09-27T20:29:09Z"
+                "publishTime": "2018-02-03T17:55:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GZ3L-bWQ9jIR-ksV6K3U4TI-zN8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "XuCbpw6Bj1U"
+            },
+            "snippet": {
+                "publishedAt": "2013-11-01T13:30:16Z",
+                "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
+                "title": "Data structures: Introduction to Queues",
+                "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XuCbpw6Bj1U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XuCbpw6Bj1U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XuCbpw6Bj1U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "mycodeschool",
+                "liveBroadcastContent": "none",
+                "publishTime": "2013-11-01T13:30:16Z"
             }
         },
         {
@@ -940,108 +950,6 @@ Computer Science Queues
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "GgeHfRHAkcmv-TxBVhaGpqDWRuY",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "XuCbpw6Bj1U"
-            },
-            "snippet": {
-                "publishedAt": "2013-11-01T13:30:16Z",
-                "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
-                "title": "Data structures: Introduction to Queues",
-                "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/XuCbpw6Bj1U/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/XuCbpw6Bj1U/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/XuCbpw6Bj1U/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "mycodeschool",
-                "liveBroadcastContent": "none",
-                "publishTime": "2013-11-01T13:30:16Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "8bu3YLVfdfMrGk2ydw3WgWE4IGA",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "PjQdvpWfCmE"
-            },
-            "snippet": {
-                "publishedAt": "2012-07-18T04:41:39Z",
-                "channelId": "UCQoN6H05vCGN7EGkarCBHYA",
-                "title": "Data Structures: Queue (Abstract Data Type)",
-                "description": "Concepts: FIFO (First in First Out) Structure Queue in constrast to the Stack Parts of a Queue: Head (Front) and Tail (Back) ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/PjQdvpWfCmE/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/PjQdvpWfCmE/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/PjQdvpWfCmE/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "ReelLearning",
-                "liveBroadcastContent": "none",
-                "publishTime": "2012-07-18T04:41:39Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "xE8bziAoUVpTeZbri0krAU9Iazw",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "1hEK9yWs_cM"
-            },
-            "snippet": {
-                "publishedAt": "2018-02-03T17:56:19Z",
-                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
-                "title": "AQA A\u2019Level Stacks &amp; Queues - Part 2",
-                "description": "AQA Specification Reference A Level 4.2.2.1 & 4.2.3.1 Why do we disable comments? We want to ensure these videos are always ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/1hEK9yWs_cM/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/1hEK9yWs_cM/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/1hEK9yWs_cM/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Craig'n'Dave",
-                "liveBroadcastContent": "none",
-                "publishTime": "2018-02-03T17:56:19Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "nFyJ3VTC0eAPrssjoxXFGbB1iSE",
             "id": {
                 "kind": "youtube#video",
@@ -1073,19 +981,79 @@ Computer Science Queues
                 "liveBroadcastContent": "none",
                 "publishTime": "2019-09-13T05:52:45Z"
             }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "b5IsHOxsp1yj7ogQCJvVuPRwjYk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "N5xY_YfbQDg"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-05T19:17:12Z",
+                "channelId": "UC_3imoXNBCDETkcZ44pgHYA",
+                "title": "A LEVEL COMPUTER SCIENCE 9618 LINKED LIST QUEUES STACKS",
+                "description": "For More Resources Visit www.mrsaem.com www.sirsaem.com www.alevelit.com.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/N5xY_YfbQDg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/N5xY_YfbQDg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/N5xY_YfbQDg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mr Saem",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-05T19:17:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "K9T9fJZNEZCJe_aIt0EQU1ACUxg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_7_jYMk_R9k"
+            },
+            "snippet": {
+                "publishedAt": "2021-01-01T15:51:20Z",
+                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
+                "title": "OCR A Level (H046-H446) Data structures Part 3 - Stacks and queues",
+                "description": "OCR Specification Reference A Level 1.4.2b Why do we disable comments? We want to ensure these videos are always ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_7_jYMk_R9k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_7_jYMk_R9k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_7_jYMk_R9k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Craig'n'Dave",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-01-01T15:51:20Z"
+            }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Linked Lists
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "f15tij3tSu0zaupanfr1iqM6zG4",
+    "etag": "IArFrnJ5h27G36JT0eR9zo0jCSY",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -1163,40 +1131,6 @@ Computer Science Linked Lists
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "xM8LC2vQDj5CjUYnqvebAPTVTzk",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "njTh_OwMljA"
-            },
-            "snippet": {
-                "publishedAt": "2016-09-27T19:39:23Z",
-                "channelId": "UCOf7UPMHBjAavgD0Qw5q5ww",
-                "title": "Data Structures: Linked Lists",
-                "description": "Learn the basics of Linked Lists. This video is a part of HackerRank's Cracking The Coding Interview Tutorial with Gayle ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/njTh_OwMljA/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/njTh_OwMljA/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/njTh_OwMljA/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "HackerRank",
-                "liveBroadcastContent": "none",
-                "publishTime": "2016-09-27T19:39:23Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "CeO8sMQ6smepDpjXhRhcrujoFkQ",
             "id": {
                 "kind": "youtube#video",
@@ -1227,6 +1161,40 @@ Computer Science Linked Lists
                 "channelTitle": "Neso Academy",
                 "liveBroadcastContent": "none",
                 "publishTime": "2020-06-22T15:45:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xM8LC2vQDj5CjUYnqvebAPTVTzk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "njTh_OwMljA"
+            },
+            "snippet": {
+                "publishedAt": "2016-09-27T19:39:23Z",
+                "channelId": "UCOf7UPMHBjAavgD0Qw5q5ww",
+                "title": "Data Structures: Linked Lists",
+                "description": "Learn the basics of Linked Lists. This video is a part of HackerRank's Cracking The Coding Interview Tutorial with Gayle ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/njTh_OwMljA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/njTh_OwMljA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/njTh_OwMljA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HackerRank",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-09-27T19:39:23Z"
             }
         },
         {
@@ -1434,21 +1402,13 @@ Computer Science Linked Lists
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Trees, AVL & Binary Trees 
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "S_4MTSMH0l2geEorrz63JsaRjCk",
+    "etag": "CX3p16JFYzs_hjFHg7ot1rJiG4Y",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
-        "totalResults": 209433,
+        "totalResults": 206388,
         "resultsPerPage": 10
     },
     "items": [
@@ -1556,6 +1516,40 @@ Computer Science Trees, AVL & Binary Trees
         },
         {
             "kind": "youtube#searchResult",
+            "etag": "ctrbn3DZBmSKUqKFl7ugQV3mgUw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hmSFuM2Tglw"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-16T18:00:10Z",
+                "channelId": "UCXRZyv0cNwba6f0xCREAD_Q",
+                "title": "Trees Compared and Visualized | BST vs AVL vs Red-Black vs Splay vs Heaps | Geekific",
+                "description": "Binary Search Trees, AVL Trees, Red-Black Trees, Splay Trees and many other tree implementations were covered in the past ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hmSFuM2Tglw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hmSFuM2Tglw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hmSFuM2Tglw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Geekific",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-16T18:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
             "etag": "waUOoICXQysdNAWGCdEDF2_EUKY",
             "id": {
                 "kind": "youtube#video",
@@ -1586,6 +1580,40 @@ Computer Science Trees, AVL & Binary Trees
                 "channelTitle": "Back To Back SWE",
                 "liveBroadcastContent": "none",
                 "publishTime": "2020-04-28T19:51:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9ZvyRE7NXIb0AYGpPGBC8HDQEV0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "U1JYwHcFfso"
+            },
+            "snippet": {
+                "publishedAt": "2021-09-13T16:20:05Z",
+                "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+                "title": "7. Binary Trees, Part 2: AVL",
+                "description": "MIT 6.006 Introduction to Algorithms, Spring 2020 Instructor: Erik Demaine View the complete course: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/U1JYwHcFfso/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/U1JYwHcFfso/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/U1JYwHcFfso/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MIT OpenCourseWare",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-09-13T16:20:05Z"
             }
         },
         {
@@ -1692,118 +1720,42 @@ Computer Science Trees, AVL & Binary Trees
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "f6_kvweUqgVqZz3NGgSmt-76sr4",
+            "etag": "X72KkCbVn-OM2NZ1tQGJEYZhJq4",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "-QENN_5jVag"
+                "videoId": "fAAZixBzIAI"
             },
             "snippet": {
-                "publishedAt": "2018-07-04T03:48:46Z",
-                "channelId": "UClEkKlO5a1S6Umhu1XGSWBg",
-                "title": "AVL Trees (Part I)",
-                "description": "An introduction to AVL tress, including single tree rotations.",
+                "publishedAt": "2021-10-18T13:34:51Z",
+                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+                "title": "Binary Tree Algorithms for Technical Interviews - Full Course",
+                "description": "Learn how to implement binary tree algorithms and how to use them to solve coding challenges. \u270f\ufe0f This course was ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/-QENN_5jVag/default.jpg",
+                        "url": "https://i.ytimg.com/vi/fAAZixBzIAI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/-QENN_5jVag/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fAAZixBzIAI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/-QENN_5jVag/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fAAZixBzIAI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Jonathan Anderson",
+                "channelTitle": "freeCodeCamp.org",
                 "liveBroadcastContent": "none",
-                "publishTime": "2018-07-04T03:48:46Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "iJd2-mLlzpiocXgq7a6-kXZZ7iw",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "oSWTXtMglKE"
-            },
-            "snippet": {
-                "publishedAt": "2016-09-27T19:39:18Z",
-                "channelId": "UCOf7UPMHBjAavgD0Qw5q5ww",
-                "title": "Data Structures: Trees",
-                "description": "Learn the basics of trees, data structures. This video is a part of HackerRank's Cracking The Coding Interview Tutorial with Gayle ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/oSWTXtMglKE/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/oSWTXtMglKE/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/oSWTXtMglKE/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "HackerRank",
-                "liveBroadcastContent": "none",
-                "publishTime": "2016-09-27T19:39:18Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "EllPko8x7AkrcZtINWajWWYTXf8",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "vvey2QCs98o"
-            },
-            "snippet": {
-                "publishedAt": "2019-10-05T14:45:41Z",
-                "channelId": "UCM-yUTYGmrNvKOCcAl21g3w",
-                "title": "5.2 Binary Tree and its Types | Data Structures",
-                "description": "CORRECTION: at 5:42 there should be 1 at 7:30 the sum will be 15 In this video, I have discussed binary tree with its properties.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/vvey2QCs98o/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/vvey2QCs98o/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/vvey2QCs98o/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Jenny's lectures CS/IT NET&JRF",
-                "liveBroadcastContent": "none",
-                "publishTime": "2019-10-05T14:45:41Z"
+                "publishTime": "2021-10-18T13:34:51Z"
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Graphs
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "fk6EqnUtydV7_5fE-7rmEDUNk00",
+    "etag": "cpuaOYSwaOImE6JDZijlEbfVgmU",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -1949,41 +1901,7 @@ Computer Science Graphs
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "KOaGNCdcq0B8iZyDdsfOU_iaMmM",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "09_LlHjoEiY"
-            },
-            "snippet": {
-                "publishedAt": "2019-10-09T15:52:04Z",
-                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
-                "title": "Algorithms Course - Graph Theory Tutorial from a Google Engineer",
-                "description": "This full course provides a complete introduction to Graph Theory algorithms in computer science. Knowledge of how to create ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/09_LlHjoEiY/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/09_LlHjoEiY/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/09_LlHjoEiY/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "freeCodeCamp.org",
-                "liveBroadcastContent": "none",
-                "publishTime": "2019-10-09T15:52:04Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "w34yEkbw0kvmu3Cre6w8JBbslpo",
+            "etag": "GWX3qjWJDqXD4_qjJmQDQsje-rQ",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "rPu8em_PX4o"
@@ -2085,36 +2003,36 @@ Computer Science Graphs
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "D1ykKo7hmFeM9dS-pwMxM6XWIkI",
+            "etag": "agAZ-pNoc0Y30OJoT8L39NX0hsg",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "TwdjOQMTaQ4"
+                "videoId": "V_TulH374hw"
             },
             "snippet": {
-                "publishedAt": "2021-10-18T11:35:31Z",
-                "channelId": "UCeVMnSShP_Iviwkknt83cww",
-                "title": "Introduction to Graphs | Graph Data Structure",
-                "description": "Graph Data Structure: From this video onwards we will study the graph data structure. The graph is one of the most important data ...",
+                "publishedAt": "2017-05-19T14:22:40Z",
+                "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+                "title": "3. Graph-theoretic Models",
+                "description": "MIT 6.0002 Introduction to Computational Thinking and Data Science, Fall 2016 View the complete course: ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/TwdjOQMTaQ4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/V_TulH374hw/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/TwdjOQMTaQ4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/V_TulH374hw/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/TwdjOQMTaQ4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/V_TulH374hw/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "CodeWithHarry",
+                "channelTitle": "MIT OpenCourseWare",
                 "liveBroadcastContent": "none",
-                "publishTime": "2021-10-18T11:35:31Z"
+                "publishTime": "2017-05-19T14:22:40Z"
             }
         },
         {
@@ -2150,19 +2068,45 @@ Computer Science Graphs
                 "liveBroadcastContent": "none",
                 "publishTime": "2017-07-15T19:27:01Z"
             }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4acxP0Q38wsxL0FIUe5_FS5uPYI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "eGc5TQpBMjA"
+            },
+            "snippet": {
+                "publishedAt": "2021-05-08T11:30:17Z",
+                "channelId": "UCBwmMxybNva6P_5VmxjzwqA",
+                "title": "Graphs - Introduction | C++ Placement Course | Lecture 34.1",
+                "description": "Complete C++ Placement Course (Data Structures+Algorithm) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eGc5TQpBMjA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eGc5TQpBMjA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eGc5TQpBMjA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Apna College",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-05-08T11:30:17Z"
+            }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Tries
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "415XzzzhJ8gJX-fu2cFIXeX3Ohw",
+    "etag": "LYZ7Zc6JlqSYPha3jysv_ZEUfuE",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -2172,360 +2116,352 @@ Computer Science Tries
     "items": [
         {
             "kind": "youtube#searchResult",
-            "etag": "YSa3TtUqttbOhJocrzI4Atse0_k",
+            "etag": "nqiEDXLjAwEEXIAIl5a758wRVYc",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "zIjfhVPRZCg"
+                "videoId": "qH6yxkw0u78"
             },
             "snippet": {
-                "publishedAt": "2016-09-27T19:39:17Z",
-                "channelId": "UCOf7UPMHBjAavgD0Qw5q5ww",
-                "title": "Data Structures: Tries",
-                "description": "Learn the basics of tries. This video is a part of HackerRank's Cracking The Coding Interview Tutorial with Gayle Laakmann ...",
+                "publishedAt": "2014-01-12T08:06:59Z",
+                "channelId": "UClEEsT7DkdVO_fkrBw0OTrA",
+                "title": "Data structures: Introduction to Trees",
+                "description": "See complete series on data structures here: http://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/zIjfhVPRZCg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/qH6yxkw0u78/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/zIjfhVPRZCg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/qH6yxkw0u78/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/zIjfhVPRZCg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/qH6yxkw0u78/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "mycodeschool",
+                "liveBroadcastContent": "none",
+                "publishTime": "2014-01-12T08:06:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OnTP7Dnb6325EjyQCEXBe_ADjmg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "1-l_UOFi1Xw"
+            },
+            "snippet": {
+                "publishedAt": "2020-07-25T05:04:05Z",
+                "channelId": "UCxX9wt5FWQUAAz4UrysqK9A",
+                "title": "Introduction to Trees (Data Structures &amp; Algorithms #9)",
+                "description": "Here is my intro to the tree data structure! And here's another interesting tree problem: https://youtu.be/7HgsS8bRvjo You can ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1-l_UOFi1Xw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1-l_UOFi1Xw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1-l_UOFi1Xw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CS Dojo",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-07-25T05:04:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iJd2-mLlzpiocXgq7a6-kXZZ7iw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oSWTXtMglKE"
+            },
+            "snippet": {
+                "publishedAt": "2016-09-27T19:39:18Z",
+                "channelId": "UCOf7UPMHBjAavgD0Qw5q5ww",
+                "title": "Data Structures: Trees",
+                "description": "Learn the basics of trees, data structures. This video is a part of HackerRank's Cracking The Coding Interview Tutorial with Gayle ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oSWTXtMglKE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oSWTXtMglKE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oSWTXtMglKE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
                 "channelTitle": "HackerRank",
                 "liveBroadcastContent": "none",
-                "publishTime": "2016-09-27T19:39:17Z"
+                "publishTime": "2016-09-27T19:39:18Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "R3akZx6Vf2mRQlq29z5SeN1-RZE",
+            "etag": "esKXc-paY5IcOa3nYGteZUsHuHM",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "3CbFFVHQrk4"
+                "videoId": "YAdLFsTG70w"
             },
             "snippet": {
-                "publishedAt": "2021-05-18T13:00:01Z",
-                "channelId": "UCwd5VFu4KoJNjkWJZMFJGHQ",
-                "title": "The Trie Data Structure (Prefix Tree)",
-                "description": "Patreon \u27a4 https://www.patreon.com/jacobsorber Courses \u27a4 https://jacobsorber.thinkific.com Website ...",
+                "publishedAt": "2019-10-04T14:49:26Z",
+                "channelId": "UCM-yUTYGmrNvKOCcAl21g3w",
+                "title": "5.1 Tree in data structure | Introduction to trees | Data structures",
+                "description": "Discussed the logical model of tree data structure in computer programming. I have discussed tree as a non-linear hierarchical ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/3CbFFVHQrk4/default.jpg",
+                        "url": "https://i.ytimg.com/vi/YAdLFsTG70w/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/3CbFFVHQrk4/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/YAdLFsTG70w/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/3CbFFVHQrk4/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/YAdLFsTG70w/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Jacob Sorber",
+                "channelTitle": "Jenny's lectures CS/IT NET&JRF",
                 "liveBroadcastContent": "none",
-                "publishTime": "2021-05-18T13:00:01Z"
+                "publishTime": "2019-10-04T14:49:26Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "WAObJWhtpt8p8LS50Ubqke9As-I",
+            "etag": "0NhzmGmJvpo166LXQY_-tg3pMcg",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "tUBFINxzlLg"
+                "videoId": "7tCNu4CnjVc"
             },
             "snippet": {
-                "publishedAt": "2019-05-02T19:32:18Z",
-                "channelId": "UCNsGQ_oLlH89HoKd5uyoAEQ",
-                "title": "Tries",
-                "description": "Video 78 of a series explaining the basic concepts of Data Structures and Algorithms. This video introduces the concept of tries.",
+                "publishedAt": "2020-03-04T18:53:11Z",
+                "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+                "title": "Coding Trees in Python - Computerphile",
+                "description": "For Mathematics, trees are more useful than strings. Professor Thorsten Altenkirch takes us through a functional approach to ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/tUBFINxzlLg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/7tCNu4CnjVc/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/tUBFINxzlLg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/7tCNu4CnjVc/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/tUBFINxzlLg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/7tCNu4CnjVc/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Lalitha Natraj",
+                "channelTitle": "Computerphile",
                 "liveBroadcastContent": "none",
-                "publishTime": "2019-05-02T19:32:18Z"
+                "publishTime": "2020-03-04T18:53:11Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "v_5n5hA21z45EMSWrkoCqZQBS-c",
+            "etag": "Vfsitem5aHgElZJXD-vchlKGy2k",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "n8DLXdWr-v0"
+                "videoId": "OyOn95AOXSM"
             },
             "snippet": {
-                "publishedAt": "2017-12-30T22:55:44Z",
-                "channelId": "UCZze4s_iofqjuNRsSvHkQ2Q",
-                "title": "36 1  R Way Tries",
-                "description": "",
+                "publishedAt": "2018-02-03T17:56:42Z",
+                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
+                "title": "AQA A\u2019Level Trees &amp; Binary trees",
+                "description": "AQA Specification Reference A Level 4.2.5.1 Why do we disable comments? We want to ensure these videos are always ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/n8DLXdWr-v0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/OyOn95AOXSM/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/n8DLXdWr-v0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/OyOn95AOXSM/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/n8DLXdWr-v0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/OyOn95AOXSM/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Computer Science",
+                "channelTitle": "Craig'n'Dave",
                 "liveBroadcastContent": "none",
-                "publishTime": "2017-12-30T22:55:44Z"
+                "publishTime": "2018-02-03T17:56:42Z"
             }
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "RnY6iTut6LibzIhZi8xhN7rPspU",
+            "etag": "X72KkCbVn-OM2NZ1tQGJEYZhJq4",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "o2SVDTSIbW4"
+                "videoId": "fAAZixBzIAI"
             },
             "snippet": {
-                "publishedAt": "2021-03-08T04:11:14Z",
-                "channelId": "UClNaci0qQAFxNOPaGfX7-wA",
-                "title": "STUDY VLOG | computer science student tries to catch up on a semester in one week | log 05",
-                "description": "Instagram: @e.velog Business: theevelog@gmail.com ---------- \"STUDY VLOG | computer science student tries to catch up on a ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/o2SVDTSIbW4/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/o2SVDTSIbW4/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/o2SVDTSIbW4/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "evelog",
-                "liveBroadcastContent": "none",
-                "publishTime": "2021-03-08T04:11:14Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "RKOxa_dF-mgtZzfaGe2IBiJ-Mjs",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "4ZONA83QfiY"
-            },
-            "snippet": {
-                "publishedAt": "2019-05-02T19:34:13Z",
-                "channelId": "UCNsGQ_oLlH89HoKd5uyoAEQ",
-                "title": "Compressed Tries",
-                "description": "Video 79 of a series explaining the basic concepts of Data Structures and Algorithms. This video explains the concept of ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/4ZONA83QfiY/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/4ZONA83QfiY/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/4ZONA83QfiY/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Lalitha Natraj",
-                "liveBroadcastContent": "none",
-                "publishTime": "2019-05-02T19:34:13Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "Hm1MmPHJ0OdhkmvAVWcx0m2Wdqo",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "fOGdb1CTu5c"
-            },
-            "snippet": {
-                "publishedAt": "2022-01-18T17:00:15Z",
-                "channelId": "UCftwRNsjfRo08xYE31tkiyw",
-                "title": "Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED",
-                "description": "Computer scientist Amit Sahai, PhD, is asked to explain the concept of zero-knowledge proofs to 5 different people; a child, a teen, ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/fOGdb1CTu5c/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/fOGdb1CTu5c/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/fOGdb1CTu5c/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "WIRED",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-01-18T17:00:15Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "eFADfL5Yr9-ire6iqvZ_CD4Xsuc",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "k6IC8p_VouM"
-            },
-            "snippet": {
-                "publishedAt": "2021-09-03T17:09:39Z",
-                "channelId": "UCA0mbbi8LsIBOrWkVNSnwkw",
-                "title": "A-Level Student Tries Brilliant Premium for a Week",
-                "description": "After watching Ali Abdaal, Thomas Frank and Veritasium, amongst other creators, I found out about Brilliant.org. Brilliant Math and ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/k6IC8p_VouM/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/k6IC8p_VouM/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/k6IC8p_VouM/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Mario Fabelo",
-                "liveBroadcastContent": "none",
-                "publishTime": "2021-09-03T17:09:39Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "D_Orc_owsGjvmtb2Z9kZFiJw3L4",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "MC-iQHFdEDI"
-            },
-            "snippet": {
-                "publishedAt": "2017-10-25T15:26:14Z",
-                "channelId": "UCcabW7890RKJzL968QWEykA",
-                "title": "Tries - CS50 Shorts",
-                "description": "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/MC-iQHFdEDI/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/MC-iQHFdEDI/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/MC-iQHFdEDI/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "CS50",
-                "liveBroadcastContent": "none",
-                "publishTime": "2017-10-25T15:26:14Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "ArRu--RhNLSwbe3BFBnSIlzk6pY",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "zOjov-2OZ0E"
-            },
-            "snippet": {
-                "publishedAt": "2020-04-21T13:45:02Z",
+                "publishedAt": "2021-10-18T13:34:51Z",
                 "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
-                "title": "Introduction to Programming and Computer Science - Full Course",
-                "description": "In this course, you will learn basics of computer programming and computer science. The concepts you learn apply to any and all ...",
+                "title": "Binary Tree Algorithms for Technical Interviews - Full Course",
+                "description": "Learn how to implement binary tree algorithms and how to use them to solve coding challenges. \u270f\ufe0f This course was ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/default.jpg",
+                        "url": "https://i.ytimg.com/vi/fAAZixBzIAI/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fAAZixBzIAI/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/zOjov-2OZ0E/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/fAAZixBzIAI/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
                 "channelTitle": "freeCodeCamp.org",
                 "liveBroadcastContent": "none",
-                "publishTime": "2020-04-21T13:45:02Z"
+                "publishTime": "2021-10-18T13:34:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lBVKKHnbBUK9wPFeDTdjNNJPmaQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0amXaMnTlhI"
+            },
+            "snippet": {
+                "publishedAt": "2021-01-01T15:52:30Z",
+                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
+                "title": "OCR A Level (H046-H446) Data structures Part 4 - Trees",
+                "description": "OCR Specification Reference A Level 1.4.2b Why do we disable comments? We want to ensure these videos are always ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0amXaMnTlhI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0amXaMnTlhI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0amXaMnTlhI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Craig'n'Dave",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-01-01T15:52:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XVUyvxBOiYfXzy_ftLNqIxSTEmg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oI0QhFzBSRo"
+            },
+            "snippet": {
+                "publishedAt": "2020-12-04T15:09:57Z",
+                "channelId": "UCeVMnSShP_Iviwkknt83cww",
+                "title": "Introduction to Trees",
+                "description": "Tree Data Structure: In this video we will see what trees are along with few tree terminologies. We will see root, children, siblings, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oI0QhFzBSRo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oI0QhFzBSRo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oI0QhFzBSRo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CodeWithHarry",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-12-04T15:09:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ttAZ8WJZQswNyPbZu0ra-Y_x0_c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "N8uOEjE8jV0"
+            },
+            "snippet": {
+                "publishedAt": "2015-10-11T02:03:18Z",
+                "channelId": "UCi1mEKq_tlYkUIFgVF6lhhA",
+                "title": "Data structures - Trees - A Level Computer Science",
+                "description": "A Level Computer Science video: Trees This video is the final in the series on data structures and covers: - What is a tree?",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/N8uOEjE8jV0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/N8uOEjE8jV0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/N8uOEjE8jV0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Yatish Parmar",
+                "liveBroadcastContent": "none",
+                "publishTime": "2015-10-11T02:03:18Z"
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Hashing and hash tables
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "QC3edjb2gal4oKnShsyt6KuCDUQ",
+    "etag": "s_UXLadH8FSiOXsIjEUBcP8ZFCk",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
-        "totalResults": 234254,
+        "totalResults": 233692,
         "resultsPerPage": 10
     },
     "items": [
@@ -2633,172 +2569,36 @@ Computer Science Hashing and hash tables
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "Zg2Fo-ZyvzlLlLeJS8bkHlzxaWg",
+            "etag": "omulUnTZZza1mvNVO5J6aKdCAmc",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "mFY0J5W8Udk"
+                "videoId": "Nu8YGneFCWE"
             },
             "snippet": {
-                "publishedAt": "2015-09-16T11:23:23Z",
-                "channelId": "UCZCFT11CWBi3MHNlGf019nw",
-                "title": "Hashing Technique - Simplified",
-                "description": "Hashing Technique : its a searching technique, designed using mathematical model of functions. its fastest searching technique.",
+                "publishedAt": "2021-09-13T16:19:44Z",
+                "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+                "title": "4. Hashing",
+                "description": "MIT 6.006 Introduction to Algorithms, Spring 2020 Instructor: Jason Ku View the complete course: https://ocw.mit.edu/6-006S20 ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/mFY0J5W8Udk/default.jpg",
+                        "url": "https://i.ytimg.com/vi/Nu8YGneFCWE/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/mFY0J5W8Udk/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Nu8YGneFCWE/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/mFY0J5W8Udk/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/Nu8YGneFCWE/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Abdul Bari",
+                "channelTitle": "MIT OpenCourseWare",
                 "liveBroadcastContent": "none",
-                "publishTime": "2015-09-16T11:23:23Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "G_CsQriWFw7WwnCWR3hylWQI0kQ",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "_IyMIQvAiwc"
-            },
-            "snippet": {
-                "publishedAt": "2018-02-03T17:56:49Z",
-                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
-                "title": "AQA A\u2019Level Hash tables - Part 1",
-                "description": "AQA Specification Reference A Level 4.2.6.1 Why do we disable comments? We want to ensure these videos are always ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/_IyMIQvAiwc/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/_IyMIQvAiwc/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/_IyMIQvAiwc/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Craig'n'Dave",
-                "liveBroadcastContent": "none",
-                "publishTime": "2018-02-03T17:56:49Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "SOUDZ9XcKbtPvIwkTIiuqR19IwY",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "0Wr6C81L8Mg"
-            },
-            "snippet": {
-                "publishedAt": "2021-01-01T15:53:11Z",
-                "channelId": "UC0HzEBLlJxlrwBAHJ5S9JQg",
-                "title": "OCR A Level (H046-H446) Data structures Part 5 - Hash tables",
-                "description": "OCR Specification Reference A Level 1.4.2b Why do we disable comments? We want to ensure these videos are always ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/0Wr6C81L8Mg/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/0Wr6C81L8Mg/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/0Wr6C81L8Mg/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Craig'n'Dave",
-                "liveBroadcastContent": "none",
-                "publishTime": "2021-01-01T15:53:11Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "HmrGdjvy-PRpvrMjvHRdYBL_Kgc",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "nvzVHwrrub0"
-            },
-            "snippet": {
-                "publishedAt": "2018-01-25T14:53:48Z",
-                "channelId": "UCcabW7890RKJzL968QWEykA",
-                "title": "Hash Tables - CS50 Shorts",
-                "description": "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/nvzVHwrrub0/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/nvzVHwrrub0/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/nvzVHwrrub0/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "CS50",
-                "liveBroadcastContent": "none",
-                "publishTime": "2018-01-25T14:53:48Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "4XTosjLa3DCJHdmNY5-_v5XMe1s",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "MfhjkfocRR0"
-            },
-            "snippet": {
-                "publishedAt": "2013-05-21T04:16:37Z",
-                "channelId": "UCcDGsN3JxMavDkM9INRLGFA",
-                "title": "What is a HashTable Data Structure - Introduction to Hash Tables , Part 0",
-                "description": "This tutorial is an introduction to hash tables. A hash table is a data structure that is used to implement an associative array.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/MfhjkfocRR0/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/MfhjkfocRR0/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/MfhjkfocRR0/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Paul Programming",
-                "liveBroadcastContent": "none",
-                "publishTime": "2013-05-21T04:16:37Z"
+                "publishTime": "2021-09-13T16:19:44Z"
             }
         },
         {
@@ -2837,50 +2637,178 @@ Computer Science Hashing and hash tables
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "gYY2GEMrKzbRyyC_xAGgi4Oi724",
+            "etag": "Zg2Fo-ZyvzlLlLeJS8bkHlzxaWg",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "KxGQbWGPeak"
+                "videoId": "mFY0J5W8Udk"
             },
             "snippet": {
-                "publishedAt": "2015-02-23T19:51:53Z",
-                "channelId": "UCBVCi5JbYmfG3q5MEuoWdOw",
-                "title": "Hash Table - Intro to Computer Science",
-                "description": "This video is part of an online course, Intro to Computer Science. Check out the course here: ...",
+                "publishedAt": "2015-09-16T11:23:23Z",
+                "channelId": "UCZCFT11CWBi3MHNlGf019nw",
+                "title": "Hashing Technique - Simplified",
+                "description": "Hashing Technique : its a searching technique, designed using mathematical model of functions. its fastest searching technique.",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/KxGQbWGPeak/default.jpg",
+                        "url": "https://i.ytimg.com/vi/mFY0J5W8Udk/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/KxGQbWGPeak/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/mFY0J5W8Udk/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/KxGQbWGPeak/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/mFY0J5W8Udk/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Udacity",
+                "channelTitle": "Abdul Bari",
                 "liveBroadcastContent": "none",
-                "publishTime": "2015-02-23T19:51:53Z"
+                "publishTime": "2015-09-16T11:23:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HmrGdjvy-PRpvrMjvHRdYBL_Kgc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nvzVHwrrub0"
+            },
+            "snippet": {
+                "publishedAt": "2018-01-25T14:53:48Z",
+                "channelId": "UCcabW7890RKJzL968QWEykA",
+                "title": "Hash Tables - CS50 Shorts",
+                "description": "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nvzVHwrrub0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nvzVHwrrub0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nvzVHwrrub0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CS50",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-01-25T14:53:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MEMyoWQVFu-pBfkc-l2ZZxqYPqU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MfhjkfocRR0"
+            },
+            "snippet": {
+                "publishedAt": "2013-05-21T04:16:37Z",
+                "channelId": "UCcDGsN3JxMavDkM9INRLGFA",
+                "title": "What is a HashTable Data Structure - Introduction to Hash Tables , Part 0",
+                "description": "This tutorial is an introduction to hash tables. A hash table is a data structure that is used to implement an associative array.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MfhjkfocRR0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MfhjkfocRR0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MfhjkfocRR0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Paul Programming",
+                "liveBroadcastContent": "none",
+                "publishTime": "2013-05-21T04:16:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "wV3J45SnuniHrFzUOprC3Ny0GOM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "b4b8ktEV4Bg"
+            },
+            "snippet": {
+                "publishedAt": "2013-11-08T17:21:55Z",
+                "channelId": "UC9-y-6csu5WGm29I7JiwpnA",
+                "title": "Hashing Algorithms and Security - Computerphile",
+                "description": "Audible free book: http://www.audible.com/computerphile Hashing Algorithms are used to ensure file authenticity, but how secure ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/b4b8ktEV4Bg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/b4b8ktEV4Bg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/b4b8ktEV4Bg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Computerphile",
+                "liveBroadcastContent": "none",
+                "publishTime": "2013-11-08T17:21:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jArEBGj-66ytIY-ODf7zpc9iVGw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "knV86FlSXJ8"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-20T16:00:12Z",
+                "channelId": "UCzDJwLWoYCUQowF_nG3m5OQ",
+                "title": "Hash tables in 4 minutes",
+                "description": "Hash tables in 4 minutes. Code: https://github.com/msambol/youtube/blob/master/data_structures/hash_table.py Sources: 1.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/knV86FlSXJ8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/knV86FlSXJ8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/knV86FlSXJ8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Michael Sambol",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-20T16:00:12Z"
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Dynamic Programming
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "9lXmDplznqXbHCtl780o2VItnSw",
+    "etag": "0JXxCtLgtMNL4ZKaQbV_tSM1A_E",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -2888,40 +2816,6 @@ Computer Science Dynamic Programming
         "resultsPerPage": 10
     },
     "items": [
-        {
-            "kind": "youtube#searchResult",
-            "etag": "KN43-g8ilSqCigN_iyYgx7X8Ork",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "vYquumk4nWw"
-            },
-            "snippet": {
-                "publishedAt": "2017-12-14T01:59:53Z",
-                "channelId": "UCxX9wt5FWQUAAz4UrysqK9A",
-                "title": "What Is Dynamic Programming and How To Use It",
-                "description": "Dynamic Programming Tutorial** This is a quick introduction to dynamic programming and how to use it. I'm going to use the ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/vYquumk4nWw/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/vYquumk4nWw/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/vYquumk4nWw/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "CS Dojo",
-                "liveBroadcastContent": "none",
-                "publishTime": "2017-12-14T01:59:53Z"
-            }
-        },
         {
             "kind": "youtube#searchResult",
             "etag": "fR_iwqfbo5lgumx1luzhajK7Y80",
@@ -2958,7 +2852,75 @@ Computer Science Dynamic Programming
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "qC-hHbxLRAyi-Gy55OTenH5prZA",
+            "etag": "KN43-g8ilSqCigN_iyYgx7X8Ork",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vYquumk4nWw"
+            },
+            "snippet": {
+                "publishedAt": "2017-12-14T01:59:53Z",
+                "channelId": "UCxX9wt5FWQUAAz4UrysqK9A",
+                "title": "What Is Dynamic Programming and How To Use It",
+                "description": "Dynamic Programming Tutorial** This is a quick introduction to dynamic programming and how to use it. I'm going to use the ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vYquumk4nWw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vYquumk4nWw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vYquumk4nWw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CS Dojo",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-12-14T01:59:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eudX5_9ki5uUpcFNtsm7RVl9YQs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "r4-cftqTcdI"
+            },
+            "snippet": {
+                "publishedAt": "2021-09-13T16:19:44Z",
+                "channelId": "UCEBb1b_L6zDS3xTUrIALZOw",
+                "title": "15. Dynamic Programming, Part 1: SRTBOT, Fib, DAGs, Bowling",
+                "description": "MIT 6.006 Introduction to Algorithms, Spring 2020 Instructor: Erik Demaine View the complete course: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/r4-cftqTcdI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/r4-cftqTcdI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/r4-cftqTcdI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MIT OpenCourseWare",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-09-13T16:19:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yKtXT7obPI5snyX2WY5O-WiQlN0",
             "id": {
                 "kind": "youtube#video",
                 "videoId": "OQ5jsbhAv_M"
@@ -3094,40 +3056,6 @@ Computer Science Dynamic Programming
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "T-qvF_dY7srb_SYDyPNDoKh_OCg",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "lVR2u9lsxl8"
-            },
-            "snippet": {
-                "publishedAt": "2019-05-21T15:28:11Z",
-                "channelId": "UCM-yUTYGmrNvKOCcAl21g3w",
-                "title": "What is Dynamic Programming | How to use it | Data structures and Algorithms",
-                "description": "Dynamic Programming Tutorial: Discussed the introduction to dynamic programming and why we use dynamic programming ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/lVR2u9lsxl8/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/lVR2u9lsxl8/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/lVR2u9lsxl8/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Jenny's lectures CS/IT NET&JRF",
-                "liveBroadcastContent": "none",
-                "publishTime": "2019-05-21T15:28:11Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "-GNJe93phEbCCRsRyHx3CHHsgC0",
             "id": {
                 "kind": "youtube#video",
@@ -3196,50 +3124,42 @@ Computer Science Dynamic Programming
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "c7jcLk7zhbjsKRxteoEG-lGZlf4",
+            "etag": "T-qvF_dY7srb_SYDyPNDoKh_OCg",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "0BhhiQGDbEA"
+                "videoId": "lVR2u9lsxl8"
             },
             "snippet": {
-                "publishedAt": "2020-02-04T13:08:45Z",
-                "channelId": "UCJihyK0A38SZ6SdJirEdIOw",
-                "title": "L-5.1: Introduction to Dynamic Programming | Greedy Vs Dynamic Programming | Algorithm(DAA)",
-                "description": "DynamicProgramming#Algorithm#DAA \u25bbFull Course of Design and Analysis of algorithms (DAA): ...",
+                "publishedAt": "2019-05-21T15:28:11Z",
+                "channelId": "UCM-yUTYGmrNvKOCcAl21g3w",
+                "title": "What is Dynamic Programming | How to use it | Data structures and Algorithms",
+                "description": "Dynamic Programming Tutorial: Discussed the introduction to dynamic programming and why we use dynamic programming ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/0BhhiQGDbEA/default.jpg",
+                        "url": "https://i.ytimg.com/vi/lVR2u9lsxl8/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/0BhhiQGDbEA/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/lVR2u9lsxl8/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/0BhhiQGDbEA/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/lVR2u9lsxl8/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Gate Smashers",
+                "channelTitle": "Jenny's lectures CS/IT NET&JRF",
                 "liveBroadcastContent": "none",
-                "publishTime": "2020-02-04T13:08:45Z"
+                "publishTime": "2019-05-21T15:28:11Z"
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Data Structures
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "CUCridv12AWHUpAO-fZM4w5fPgY",
+    "etag": "-XLMA21cfGsT2nK4Q-1Zx_Dnk_o",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -3351,6 +3271,40 @@ Computer Science Data Structures
         },
         {
             "kind": "youtube#searchResult",
+            "etag": "qXrBKE8eH2iP6_Bv9hU-Rtqx9uA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RBSGKlAvoiM"
+            },
+            "snippet": {
+                "publishedAt": "2019-09-19T14:39:38Z",
+                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+                "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
+                "description": "Learn and master the most common data structures in this full course from Google engineer William Fiset. This course teaches ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RBSGKlAvoiM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RBSGKlAvoiM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RBSGKlAvoiM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "freeCodeCamp.org",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-09-19T14:39:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
             "etag": "RZSBJ0_KlE8NYoFiiAt1y_PFNVU",
             "id": {
                 "kind": "youtube#video",
@@ -3415,40 +3369,6 @@ Computer Science Data Structures
                 "channelTitle": "CS Dojo",
                 "liveBroadcastContent": "none",
                 "publishTime": "2018-03-12T05:19:30Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "qXrBKE8eH2iP6_Bv9hU-Rtqx9uA",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "RBSGKlAvoiM"
-            },
-            "snippet": {
-                "publishedAt": "2019-09-19T14:39:38Z",
-                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
-                "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
-                "description": "Learn and master the most common data structures in this full course from Google engineer William Fiset. This course teaches ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/RBSGKlAvoiM/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/RBSGKlAvoiM/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/RBSGKlAvoiM/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "freeCodeCamp.org",
-                "liveBroadcastContent": "none",
-                "publishTime": "2019-09-19T14:39:38Z"
             }
         },
         {
@@ -3555,50 +3475,42 @@ Computer Science Data Structures
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "SkLH45GUNANq12udsDIm_wMaWNo",
+            "etag": "-jvmnLMCYUb6vCS-cry0lR7vR-M",
             "id": {
                 "kind": "youtube#video",
-                "videoId": "KY6_H39WaIQ"
+                "videoId": "NArCnniROi0"
             },
             "snippet": {
-                "publishedAt": "2014-03-31T08:01:17Z",
-                "channelId": "UCq7dxy_qYNEBcHqQVCbc20w",
-                "title": "Top 10 Data Structures in Computer Science (Crash Course)",
-                "description": "If you're just starting to program, these are the 10 data structures you might want to read up on first. If you're not new to ...",
+                "publishedAt": "2021-01-27T04:30:11Z",
+                "channelId": "UCF7BExjT2zH_mmyqOB139Dg",
+                "title": "Data Structures &amp; Stack | Python for Class 12 | Computer Science | Lecture 17",
+                "description": "Notes and Important Links of this lecture Discord Server: https://discord.com/invite/amandhattarwal ...",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/KY6_H39WaIQ/default.jpg",
+                        "url": "https://i.ytimg.com/vi/NArCnniROi0/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/KY6_H39WaIQ/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/NArCnniROi0/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/KY6_H39WaIQ/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/NArCnniROi0/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     }
                 },
-                "channelTitle": "Creel",
+                "channelTitle": "Apni Kaksha",
                 "liveBroadcastContent": "none",
-                "publishTime": "2014-03-31T08:01:17Z"
+                "publishTime": "2021-01-27T04:30:11Z"
             }
         }
     ]
-}
-#################################################
-
-#################################################
-Computer Science Algorithms
-#################################################
-
-#################################################
-{
+}{
     "kind": "youtube#searchListResponse",
-    "etag": "Msu2w9BOFlUsLAX3ufXT5e98_pU",
+    "etag": "QjTzimi-OhCItbFKVMZocbawt44",
     "nextPageToken": "CAoQAA",
     "regionCode": "FR",
     "pageInfo": {
@@ -3744,40 +3656,6 @@ Computer Science Algorithms
         },
         {
             "kind": "youtube#searchResult",
-            "etag": "JY-6N10pMYuP9L4QmrKMwOd6mzQ",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "0JUN9aDxVmI"
-            },
-            "snippet": {
-                "publishedAt": "2016-07-11T16:31:33Z",
-                "channelId": "UCLv7Gzc3VTO6ggFlXY0sOyw",
-                "title": "Advanced Algorithms (COMPSCI 224), Lecture 1",
-                "description": "Logistics, course topics, word RAM, predecessor, van Emde Boas, y-fast tries. Please see Problem 1 of Assignment 1 at ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/0JUN9aDxVmI/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/0JUN9aDxVmI/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/0JUN9aDxVmI/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Harvard University",
-                "liveBroadcastContent": "none",
-                "publishTime": "2016-07-11T16:31:33Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
             "etag": "EcmZY38vbzq_5bAMxh74sIXG4XM",
             "id": {
                 "kind": "youtube#video",
@@ -3808,6 +3686,40 @@ Computer Science Algorithms
                 "channelTitle": "Fireship",
                 "liveBroadcastContent": "none",
                 "publishTime": "2022-05-04T16:07:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JY-6N10pMYuP9L4QmrKMwOd6mzQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0JUN9aDxVmI"
+            },
+            "snippet": {
+                "publishedAt": "2016-07-11T16:31:33Z",
+                "channelId": "UCLv7Gzc3VTO6ggFlXY0sOyw",
+                "title": "Advanced Algorithms (COMPSCI 224), Lecture 1",
+                "description": "Logistics, course topics, word RAM, predecessor, van Emde Boas, y-fast tries. Please see Problem 1 of Assignment 1 at ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0JUN9aDxVmI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0JUN9aDxVmI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0JUN9aDxVmI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Harvard University",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-07-11T16:31:33Z"
             }
         },
         {
