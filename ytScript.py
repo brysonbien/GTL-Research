@@ -9,44 +9,45 @@ api_key = 'AIzaSyDIuQ0gDsXrKNvGIdKMWUezUjkD9Kgrx8s'
 """
 Iterate through the keyword list to search youtube api and write out to query_responses.csv
 """
-def csvOutputVideos(youtube, string):
-    request = youtube.search().list(
-    part="snippet",
-    type='video',
-    q = string,
-    maxResults = 2
-    )
+def csvOutputVideos(youtube, keyword_list):
+    for string in keyword_list:
+        request = youtube.search().list(
+        part="snippet",
+        type='video',
+        q = string,
+        maxResults = 2
+        )
 
-    response = request.execute()
+        response = request.execute()
 
-    # Reads videoIds from response .json document and writes to a csv file
-    with open('query_responses.csv', 'w') as f:
-        videoIds = []
-        for elem in response['items']:
-            videoIds.append(elem["id"]["videoId"])
-        f.write(','.join(videoIds))
+        # Reads videoIds from response .json document and writes to a csv file
+        with open('query_responses.csv', 'w') as f:
+            videoIds = []
+            for elem in response['items']:
+                videoIds.append(elem["id"]["videoId"])
+            f.write(','.join(videoIds))
 
 # Gets Comments for each videoID in the CSV
-def csvOutputComments(youtube, videoID):
-    request = youtube.commentThreads().list(
-        videoID = videoID,
-        part = "snippet,replies",
-        order = "relevance",
-        maxResults = 50
-        )
-    response = request.execute()
-    with open('query_responses.csv', 'a') as f:
-        videoIds = []
-        for elem in response['items']:
-            videoIds.append(elem["id"]["videoId"])
-        f.write(','.join(videoIds))
-
+def csvOutputComments(youtube):
+     with open('query_responses.csv', 'a') as f:
+            data = f.read()
+            split_data = data.split(",")
+            print(split_data)
+            while len(split_data) > 0:
+                for videoId in split_data:
+                    request = youtube.commentThreads().list(
+                        videoID = videoId,
+                        part = "snippet,replies",
+                        order = "relevance",
+                        maxResults = 50
+                        )
+                    response = request.execute()
+                    
 """
 Gets the videoIds of the imported search parameters, stores them in a csv file.
 It then uses those CSV to get the top 50 comments for each video.
 """
-class Main:
-    def __main__():
+def __main__():
         #Building Youtube object
         youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -63,15 +64,5 @@ class Main:
         # keyword_list.append("Computer Science Dynamic Programming")
         # keyword_list.append("Computer Science Data Structures")
         # keyword_list.append("Computer Science Algorithms")
-        for string in keyword_list:
-            csvOutputVideos(youtube, string)
-        for line in...
-            csvOutputComments(youtube, videoID)
-
-filename = 'file.csv'
-
-with open(filename, 'r') as csvfile:
-    datareader = csv.reader(csvfile)
-    for row in datareader:
-        print(row)
-COPY
+        csvOutputVideos(youtube, keyword_list)
+        csvOutputComments(youtube)
