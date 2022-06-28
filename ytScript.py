@@ -45,18 +45,19 @@ def main():
 # Gets video statistics from video ID
 def getStatistics():
     with open('query_responses.csv', 'r') as f:
-        data = f.readlines()
-        split_data = []
-        for item in data:
-            split_data.append(item)
-        for videoId in split_data:
-            request = youtube.videos().list(
-                part = "statistics, id",
-                id = videoId
-                )
-            response = request.execute()
-            print(response["items"][0]["statistics"])
+        data = f.read()
+        split_data = data.split(",")
+        print(split_data)
+        while len(split_data) > 0:
+            for videoId in split_data:
+                request = youtube.videos().list(
+                    part = "id, statistics",
+                    id = videoId
+                    )
+                response = request.execute()
+                print(response["items"][0]["id"])
+                print(response["items"][0]["statistics"])
+                split_data.remove(videoId)
 
 main()
-
 getStatistics()
