@@ -27,6 +27,7 @@ def csvOutputVideos(youtube, keyword_list):
                 videoIds.append(elem["id"]["videoId"])
             f.write(','.join(videoIds))
 
+
 # Gets Comments for each videoID in the CSV
 def csvOutputComments(youtube):
      with open('query_responses.csv', 'r') as f:
@@ -34,17 +35,21 @@ def csvOutputComments(youtube):
             split_data = data.split(",")
             print(split_data)
             while len(split_data) > 0:
-                for videoId in split_data:
+                for video_Id in split_data:
                     request = youtube.commentThreads().list(
-                        videoID = videoId,
+                        videoId = video_Id,
                         part = "snippet,replies",
                         order = "relevance",
                         maxResults = 50
                         )
-                    response = request.execute()
-                    print(response["items"][0]["id"])
-                    print(response["items"][0]["statistics"])
-                    split_data.remove(videoId)
+                    try:
+                        response = request.execute()
+                        for elem in response['items']:
+                            print("\n" + elem['snippet']['topLevelComment']['snippet']['textDisplay'])
+                        print('\n')
+                    except:
+                        print(video_Id + " has comments disabled, or something else went wrong")
+                    split_data.remove(video_Id)
                     
 """
 Gets the videoIds of the imported search parameters, stores them in a csv file.
