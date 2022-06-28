@@ -23,20 +23,40 @@ keyword_list.append("Computer Science Lists")
 # keyword_list.append("Computer Science Algorithms")
 
 
-#Iterate through the keyword list to search youtube api and write out to query_responses.txt
-for string in keyword_list:
-    request = youtube.search().list(
-    part="snippet",
-    type='video',
-    q = string,
-    maxResults = 2
-    )
 
-    response = request.execute()
+def main():
+    #Iterate through the keyword list to search youtube api and write out to query_responses.txt
+    for string in keyword_list:
+        request = youtube.search().list(
+        part="snippet",
+        type='video',
+        q = string,
+        maxResults = 2
+        )
 
-# Reads videoIds from response .json document and writes to a new file
-with open('query_responses.csv', 'w') as f:
-    videoIds = []
-    for elem in response['items']:
-        videoIds.append(elem["id"]["videoId"])
-    f.write(','.join(videoIds))
+        response = request.execute()
+
+    # Reads videoIds from response .json document and writes to a new file
+    with open('query_responses.csv', 'w') as f:
+        videoIds = []
+        for elem in response['items']:
+            videoIds.append(elem["id"]["videoId"])
+        f.write(','.join(videoIds))
+# Gets video statistics from video ID
+def getStatistics():
+    with open('query_responses.csv', 'r') as f:
+        data = f.readlines()
+        split_data = []
+        for item in data:
+            split_data.append(item)
+        for videoId in split_data:
+            request = youtube.videos().list(
+                part = "statistics, id",
+                id = videoId
+                )
+            response = request.execute()
+            print(response["items"][0]["statistics"])
+
+main()
+
+getStatistics()
