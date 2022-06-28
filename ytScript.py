@@ -29,7 +29,7 @@ def csvOutputVideos(youtube, keyword_list):
 
 # Gets Comments for each videoID in the CSV
 def csvOutputComments(youtube):
-     with open('query_responses.csv', 'a') as f:
+     with open('query_responses.csv', 'r') as f:
             data = f.read()
             split_data = data.split(",")
             print(split_data)
@@ -42,12 +42,15 @@ def csvOutputComments(youtube):
                         maxResults = 50
                         )
                     response = request.execute()
+                    print(response["items"][0]["id"])
+                    print(response["items"][0]["statistics"])
+                    split_data.remove(videoId)
                     
 """
 Gets the videoIds of the imported search parameters, stores them in a csv file.
 It then uses those CSV to get the top 50 comments for each video.
 """
-def __main__():
+def main():
         #Building Youtube object
         youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -66,3 +69,4 @@ def __main__():
         # keyword_list.append("Computer Science Algorithms")
         csvOutputVideos(youtube, keyword_list)
         csvOutputComments(youtube)
+main()
