@@ -34,23 +34,21 @@ def csvOutputComments(youtube):
             data = f.read()
             split_data = data.split(",")
             print(split_data)
-            while len(split_data) > 0:
-                for video_Id in split_data:
-                    request = youtube.commentThreads().list(
-                        videoId = video_Id,
-                        part = "snippet,replies",
-                        order = "relevance",
-                        maxResults = 50
-                        )
-                    try:
-                        response = request.execute()
-                        for elem in response['items']:
-                            print("\n" + elem['snippet']['topLevelComment']['snippet']['textDisplay'])
-                        print('\n')
-                    except:
-                        print(video_Id + " has comments disabled, or something else went wrong")
-                    split_data.remove(video_Id)
-                    
+            for video_Id in split_data:
+                request = youtube.commentThreads().list(
+                    videoId = video_Id,
+                    part = "snippet,replies",
+                    order = "relevance",
+                    maxResults = 50
+                    )
+                try:
+                    response = request.execute()
+                    for elem in response['items']:
+                        print("\n" + elem['snippet']['topLevelComment']['snippet']['textDisplay'])
+                    print('\n')
+                except:
+                    print(video_Id + " has comments disabled, or something else went wrong")
+
 """
 Gets the videoIds of the imported search parameters, stores them in a csv file.
 It then uses those CSV to get the top 50 comments for each video.
@@ -74,4 +72,5 @@ def main():
         # keyword_list.append("Computer Science Algorithms")
         csvOutputVideos(youtube, keyword_list)
         csvOutputComments(youtube)
+
 main()
