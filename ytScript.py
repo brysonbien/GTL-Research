@@ -31,6 +31,7 @@ def getStatistics():
     with open('query_responses.csv', 'r') as f:
         data = f.read()
         split_data = data.split(",")
+        split_data.reverse()
         print("\n")
         for videoId in split_data:
             request = youtube.videos().list(
@@ -78,6 +79,7 @@ def csvOutputComments():
     with open('query_responses.csv', 'r') as f:
             data = f.read()
             split_data = data.split(",")
+            split_data.reverse()
             for video_Id in split_data:
                 print("\n" + video_Id)
                 request = youtube.commentThreads().list(
