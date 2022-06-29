@@ -33,8 +33,8 @@ def csvOutputComments(youtube):
      with open('query_responses.csv', 'r') as f:
             data = f.read()
             split_data = data.split(",")
-            print(split_data)
             for video_Id in split_data:
+                print("\n" + video_Id)
                 request = youtube.commentThreads().list(
                     videoId = video_Id,
                     part = "snippet,replies",
