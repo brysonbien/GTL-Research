@@ -31,7 +31,7 @@ def getStatistics():
     with open('query_responses.csv', 'r') as f:
         data = f.read()
         split_data = data.split(",")
-        print(split_data)
+        print("\n")
         for videoId in split_data:
             request = youtube.videos().list(
                 part = "id, statistics",
