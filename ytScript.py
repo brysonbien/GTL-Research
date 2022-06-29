@@ -40,6 +40,7 @@ def getStatistics():
             response = request.execute()
             print(response["items"][0]["id"])
             print(response["items"][0]["statistics"])
+            print("\n")
     print("\n")
 
 
