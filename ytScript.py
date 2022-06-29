@@ -6,10 +6,6 @@ from googleapiclient.discovery import build
 #Api Key generated 
 api_key = 'AIzaSyDIuQ0gDsXrKNvGIdKMWUezUjkD9Kgrx8s'
 
-"""
-Iterate through the keyword list to search youtube api and write out to query_responses.csv
-"""
-
 #Building Youtube object
 youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -27,7 +23,9 @@ keyword_list.append("Computer Science Lists")
 # keyword_list.append("Computer Science Data Structures")
 # keyword_list.append("Computer Science Algorithms")
 
-# Gets video statistics from video ID
+"""
+Gets video statistics from video ID
+"""
 def getStatistics():
     with open('query_responses.csv', 'r') as f:
         data = f.read()
@@ -66,7 +64,9 @@ def csvOutputVideos():
             f.write(','.join(videoIds))
 
 
-# Gets Comments for each videoID in the CSV
+"""
+Iterate through the keyword list to search youtube api and write out to query_responses.csv
+"""
 def csvOutputComments():
      with open('query_responses.csv', 'r') as f:
             data = f.read()
@@ -86,7 +86,7 @@ def csvOutputComments():
                     print('\n')
                 except:
                     print(video_Id + " has comments disabled, or something else went wrong")
-
+                    
 def main():
         csvOutputVideos()
         csvOutputComments()
