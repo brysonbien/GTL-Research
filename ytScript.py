@@ -42,6 +42,11 @@ def getStatistics():
             print(response["items"][0]["id"])
             print(response["items"][0]["statistics"])
 
+
+"""
+Gets the videoIds of the imported search parameters, stores them in a csv file.
+It then uses those CSV to get the top 50 comments for each video.
+"""
 def csvOutputVideos():
     #Iterate through the keyword list to search youtube api and write out to query_responses.txt
     for string in keyword_list:
@@ -82,10 +87,6 @@ def csvOutputComments():
                 except:
                     print(video_Id + " has comments disabled, or something else went wrong")
 
-"""
-Gets the videoIds of the imported search parameters, stores them in a csv file.
-It then uses those CSV to get the top 50 comments for each video.
-"""
 def main():
         csvOutputVideos()
         csvOutputComments()
