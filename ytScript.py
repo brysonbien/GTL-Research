@@ -27,6 +27,7 @@ keyword_list.append("Computer Science Lists")
 Gets video statistics from video ID
 """
 def getStatistics():
+    print("####################################\n" + "VIDEO_IDS USED FOR STATS\n" + "####################################")
     with open('query_responses.csv', 'r') as f:
         data = f.read()
         split_data = data.split(",")
@@ -39,6 +40,7 @@ def getStatistics():
             response = request.execute()
             print(response["items"][0]["id"])
             print(response["items"][0]["statistics"])
+    print("\n")
 
 
 """
@@ -46,6 +48,7 @@ Gets the videoIds of the imported search parameters, stores them in a csv file.
 It then uses those CSV to get the top 50 comments for each video.
 """
 def csvOutputVideos():
+    print("####################################\n" + "VIDEO_IDS OUPUTTED TO CSV FILE\n" + "####################################")
     #Iterate through the keyword list to search youtube api and write out to query_responses.txt
     for string in keyword_list:
         request = youtube.search().list(
@@ -62,13 +65,16 @@ def csvOutputVideos():
             for elem in response['items']:
                 videoIds.append(elem["id"]["videoId"])
             f.write(','.join(videoIds))
+    print("\n")
+    
 
 
 """
 Iterate through the keyword list to search youtube api and write out to query_responses.csv
 """
 def csvOutputComments():
-     with open('query_responses.csv', 'r') as f:
+    print("####################################\n" + "VIDEO_IDS USED FOR COMMENTS\n" + "####################################")
+    with open('query_responses.csv', 'r') as f:
             data = f.read()
             split_data = data.split(",")
             for video_Id in split_data:
@@ -86,7 +92,9 @@ def csvOutputComments():
                     print('\n')
                 except:
                     print(video_Id + " has comments disabled, or something else went wrong")
-                    
+    print("\n")
+    
+
 def main():
         csvOutputVideos()
         csvOutputComments()
