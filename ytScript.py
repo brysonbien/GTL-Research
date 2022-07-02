@@ -96,7 +96,6 @@ def csvOutputComments():
 
 """
 Gets the channelIds of the imported search parameters, stores them in a csv file.
-It then uses those CSV to get the top 50 comments for each video.
 """
 def csvOutputChannels():
     print("####################################\n" + "CHANNEL_IDS OUPUTTED TO CSV FILE\n" + "####################################")
