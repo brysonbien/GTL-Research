@@ -94,55 +94,9 @@ def csvOutputComments():
                     print(video_Id + " has comments disabled, or something else went wrong")
     print("\n")
 
-"""
-Gets the channelIds of the imported search parameters, stores them in a csv file.
-"""
-def csvOutputChannels():
-    print("####################################\n" + "CHANNEL_IDS OUPUTTED TO CSV FILE\n" + "####################################")
-    #Iterate through the keyword list to search youtube api and write out to query_responses.txt
-    for string in keyword_list:
-        request = youtube.search().list(
-        part="snippet",
-        type='channel',
-        q = string,
-        maxResults = 2
-        )
-        response = request.execute()
-
-        # Reads channelIds from response .json document and writes to a csv file
-        with open('query_responses.csv', 'w') as f:
-            channelIds = []
-            for elem in response['items']:
-                channelIds.append(elem["id"]["channelId"])
-            f.write(','.join(channelIds))
-    print("\n")
-
-"""
-Gets channel statistics from channel ID
-"""
-def getChannelStats():
-    print("####################################\n" + "CHANNEL_IDS USED FOR STATS\n" + "####################################")
-    with open('query_responses.csv', 'r') as f:
-        data = f.read()
-        split_data = data.split(",")
-        split_data.reverse()
-        print("\n")
-        for channelId in split_data:
-            request = youtube.channels().list(
-                part = "id, statistics",
-                id = channelId
-                )
-            response = request.execute()
-            print(response["items"][0]["id"])
-            print(response["items"][0]["statistics"])
-            print("\n")
-    print("\n")
-
 def main():
         csvOutputVideos()
         csvOutputComments()
         getStatistics()
-        csvOutputChannels()
-        getChannelStats()
 
 main()
