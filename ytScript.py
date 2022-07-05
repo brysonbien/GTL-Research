@@ -33,9 +33,10 @@ keyword_list = ["Computer Science Lists",
                 "Computer Science Algorithms"
                 ]
                 
-"""
-Gets the videoIds of the imported search parameters, stores them in a csv file.
-It then uses those CSV to get the top 50 comments for each video.
+"""Gets a list of videoIds from an inputted topic 
+
+:param topic: string of query for youtube object 
+:returns: videoIds dicitonary
 """
 def getVideos(topic):
     #Iterate through the keyword list to search youtube api and write out to query_responses.txt
@@ -63,17 +64,10 @@ def getVideos(topic):
         videoIds[videoId] = videoObject
     return videoIds
                               
-"""
-Gets video statistics from video IDs
+"""Gets statistics from a list of videoIds 
 
-"statistics": {
-    "viewCount": unsigned long,
-    "likeCount": unsigned long,
-    "dislikeCount": unsigned long,
-    "favoriteCount": unsigned long,
-    "commentCount": unsigned long
-  }
-
+:param videoIds: dictionary of videoIds
+:return videoStats dictionary
 """
 def getStatistics(videoIds):
     videoStats = {}
@@ -86,8 +80,10 @@ def getStatistics(videoIds):
             videoStats[videoId] = response["items"][0]["statistics"]
     return videoStats
 
-"""
-Iterate through the keyword list to search youtube api and write out to query_responses.csv
+"""Gets top comments from a list of videoIds
+
+:param videoIds: dictionary of videoIds
+:return comments dictionary
 """
 def getComments(videoIds):
     videoComments = {}
@@ -108,8 +104,10 @@ def getComments(videoIds):
             videoComments[video_Id] = None
     return videoComments
 
-"""
-Gets channel statistics from channel ID
+"""Gets channelStats from a list of videoIds 
+
+:param videoIds: dictionary of videoIds
+:return channelStats dictionary
 """
 def getChannelStats(videoIds):
     channelStats = {}
@@ -124,7 +122,8 @@ def getChannelStats(videoIds):
     return channelStats
 
 def main():
-        #Gather Video Stats
+        
+        #Create TSV Headers
         with open(video_output, 'w+') as f:
             f.write("\t".join([  "topic",
                                 "title",
@@ -156,15 +155,17 @@ def main():
                                 "subscriberCount",
                                 "videoCount",
                                 ]))
-        
 
+        #Iterate through topic list
         for topic in keyword_list:
 
+            #Create Json Object for topic
             compiledJson = {}
             compiledJson['topic'] = topic
             compiledJson['videos'] = {}
             compiledJson['channels'] = {}
 
+            #Method Calls
             print("\n####################################\n" + "COLLECTING VIDEO IDS FOR " + topic + "\n####################################")
             videoIds = getVideos(topic)
             print("\n####################################\n" + "VIDEO_IDS USED FOR STATS FOR " + topic + "\n####################################")
@@ -174,7 +175,7 @@ def main():
             print("\n####################################\n" + "VIDEO_IDS USED FOR CHANNELS " + topic + "\n####################################")
             channels = getChannelStats(videoIds)
 
-
+            #Writing to TSVs and JSON files
             print("\n####################################\n" + "SAVING VIDEO IDS\n" + "####################################")
             with open(video_output, 'a') as f:
                 for vidId in videoIds.keys():
